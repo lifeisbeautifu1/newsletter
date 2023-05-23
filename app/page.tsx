@@ -1,3 +1,5 @@
+import { NewsLetterForm } from "@/components";
+
 export default function Home() {
   return (
     <main className="bg-[#03040B] flex flex-col items-center justify-center p-10 min-h-screen">
@@ -9,6 +11,7 @@ export default function Home() {
           Newsletter
         </h1>
       </div>
+      <NewsLetterForm />
     </main>
   );
 }
